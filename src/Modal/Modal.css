@@ -1,0 +1,19 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.44);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.modal__body {
+    padding: 3rem;
+    width: 300px;
+    height: 200px;
+    border-right: 5px;
+    background: #fff;
+}
